@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="general.css">
+        <link rel="stylesheet" href="create-case-screen.css">
+        <title> crimepatrol.eth </title>
+    </head>
+    <body>
+        <div class="row" style="justify-content: space-between;">
+            <div class="col" style="justify-content: left;">
+                <p class="header-text"> crimepatrol.eth </p>
+            </div>
+            <div class="col" style="justify-content: right;">
+                <img src="stars.svg"/>
+            </div>
+        </div> <br>
+
+        <div class="row" style="justify-content: space-between; margin-right: 10rem; margin-top: -4rem;">
+            <div class="col">
+                <div class="upload-image">
+                    <label for="cover-photo" style="font-weight: 200; font-size: 16px;"> Upload cover photo </label> <br>
+                    <input type="file" accept="image/*" id="cover-photo">
+                </div>
+            </div>
+            <div class="col">
+                <div class="case-details">
+
+                    <div class="row" style="padding: 1rem;">
+                        <div>
+                            <label for="fir-no"> FIR number: </label>
+                            <input type="text" id="fir-no" class="for-input"/>
+                        </div>
+                    </div>
+                    <div class="row" style="padding: 1rem;">
+                        <div>
+                            <label for="officer-name"> Investigating officer: </label>
+                            <input type="text" id="officer-name" class="for-input"/>
+                        </div>
+                    </div> 
+                    <div class="row" style="padding: 1rem;">
+                        <div>
+                            <label for="location"> Location of crime: </label>
+                            <input type="text" id="location" class="for-input"/>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 1rem;">
+            <div>
+                <input type="text" id="title" placeholder="Add title" class="for-input" style="font-size: 22px; font-weight: 600;"/>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 1rem;">
+            <div>
+                <textarea id="description" placeholder="Add description" class="for-input" width="200px"> </textarea>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="row">
+            <button type="submit" class="save-case"> Save case </button>            
+        </div>
+
+    </body>

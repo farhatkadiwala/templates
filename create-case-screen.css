@@ -1,0 +1,36 @@
+.upload-image{
+    width: 500px;
+    height: 150px;
+    border-radius: 12px;
+    background-color: rgba(228, 228, 228, 0.40);
+}
+
+.case-details{
+    width: 470px;
+    height: 150px;
+    border-radius: 12px;
+    background-color: rgba(36, 36, 36, 0.45);
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.for-input{
+    font-family: BricolageGrotesque;
+    font-weight: 200;
+    font-size: 16px;
+    border: none 12px;
+    border-radius: 12px;
+    background-color: rgba(202, 202, 202, 0.20);
+    padding: 0rem 0.5rem;
+    color: #FFF
+}
+
+textarea{
+    font-size: 16px;
+    width: 488px;
+    padding: 0rem;
+}
+
+.save-case{
+    justify-content: right;
+}
